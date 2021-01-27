@@ -10,3 +10,5 @@
 | 6 | duplicate-zeros | 25/01/2021 |
 | 7 | merge-sorted-array | 26/01/2021 |
 | 8 | remove-duplicates-from-sorted-array | 26/01/2021 |
+| 9 | check-if-n-and-its-double-exist | 27/01/2021 |
+| 10 | valid-mountain-array | 27/01/2021 |
