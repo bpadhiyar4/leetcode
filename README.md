@@ -12,3 +12,5 @@
 | 8 | remove-duplicates-from-sorted-array | 26/01/2021 |
 | 9 | check-if-n-and-its-double-exist | 27/01/2021 |
 | 10 | valid-mountain-array | 27/01/2021 |
+| 11 | replace-elements-with-greatest-element-on-right-side | 28/01/2021 |
+| 12 | move-zeroes | 11/02/2021 |
