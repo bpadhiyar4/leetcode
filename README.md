@@ -2,7 +2,8 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
-| 13 | [sort-array-by-parity](https://github.com/bpadhiyar4/leetcode/tree/main/sort-array-by-parity) | 28/02/2021 |
+| 14 | [height-checker](https://github.com/bpadhiyar4/leetcode/tree/main/height-checker) | 13/02/2021
+| 13 | [sort-array-by-parity](https://github.com/bpadhiyar4/leetcode/tree/main/sort-array-by-parity) | 12/02/2021 |
 | 12 | [move-zeroes](https://github.com/bpadhiyar4/leetcode/tree/main/move-zeroes) | 11/02/2021 |
 | 11 | [replace-elements-with-greatest-element-on-right-side](https://github.com/bpadhiyar4/leetcode/tree/main/replace-elements-with-greatest-element-on-right-side) | 28/01/2021 |
 | 10 | [valid-mountain-array](https://github.com/bpadhiyar4/leetcode/tree/main/valid-mountain-array) | 27/01/2021 |
