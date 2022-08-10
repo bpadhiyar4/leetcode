@@ -2,6 +2,7 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 17 | [Roman to Integer](https://github.com/bpadhiyar4/leetcode/tree/main/13-roman-to-integer) | 10/08/2022
 | 16 | [implement-stack-using-queues](https://github.com/bpadhiyar4/leetcode/blob/main/implement-stack-using-queues/implement-stack-using-queues.java) | 27/06/2021
 | 15 | [running-sum-of-1d-array](https://github.com/bpadhiyar4/leetcode/blob/main/running-sum-of-1d-array/running-sum-of-1d-array.java) | 21/06/2021
 | 14 | [height-checker](https://github.com/bpadhiyar4/leetcode/tree/main/height-checker) | 13/02/2021
