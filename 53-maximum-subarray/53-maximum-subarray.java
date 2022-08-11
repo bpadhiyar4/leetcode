@@ -13,26 +13,4 @@ class Solution {
         
         return max;
     }
-    
-//         public int maxSubArray(int[] nums) {
-//         int max = Integer.MIN_VALUE;
-//         int len = nums.length;
-        
-//         if(len == 1) {
-//             return nums[0];
-//         }
-        
-//         for(int i=0; i<len; i++) {
-//             int sum = nums[i];
-//             max = Math.max(max, sum);
-//             for(int j=i+1; j< len; j++) {
-//                 sum += nums[j];
-                
-//                 max = Math.max(max, sum);
-//             }
-            
-//         }
-        
-//         return max;
-//     }
 }
