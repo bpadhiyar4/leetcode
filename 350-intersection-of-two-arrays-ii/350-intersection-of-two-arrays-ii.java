@@ -1,7 +1,7 @@
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
-        int[] mapArr  = nums1.length <= nums2.length ? nums1 : nums2;
-        int[] itrArr = nums1.length <= nums2.length ? nums2 : nums1;
+        int[] itrArr  = nums1.length <= nums2.length ? nums1 : nums2;
+        int[] mapArr = nums1.length <= nums2.length ? nums2 : nums1;
         
         Map<Integer, Integer> map = new HashMap<>();
         for(int n : mapArr) {
