@@ -1,5 +1,8 @@
 class Solution {
 
+    // Approach A
+    // TIme Complexity : O(NLogN), because we are performing sorting.
+    // Space complexity : O(1), don't need any extra space except the list to store the answer.
      public int[] intersect(int[] nums1, int[] nums2) {
          Arrays.sort(nums1);
          Arrays.sort(nums2);
