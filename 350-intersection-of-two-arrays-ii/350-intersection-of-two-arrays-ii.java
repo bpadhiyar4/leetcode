@@ -1,5 +1,37 @@
 class Solution {
-    public int[] intersect(int[] nums1, int[] nums2) {
+
+     public int[] intersect(int[] nums1, int[] nums2) {
+         Arrays.sort(nums1);
+         Arrays.sort(nums2);
+         
+         int n1 = nums1.length;
+         int n2 = nums2.length;
+         int i=0;
+         int j=0;
+         List<Integer> ans = new ArrayList<>();
+         while(i<n1 && j<n2) {
+             if(nums1[i] == nums2[j]) {
+                 ans.add(nums1[i]);
+                 i++;
+                 j++;
+             } else {
+                 if(nums1[i] < nums2[j]) {
+                     i++;
+                 } else {
+                     j++;
+                 }
+             }
+         }
+         
+         return ans.stream()
+            .mapToInt(Integer::intValue)
+            .toArray();
+    }
+    
+    // Approach B
+    // TIme complexity : O(n1 + n2), where n1 n2 represents nums1 and nums2's length respectively
+    // Space complexity : O(n2), for HashMap.
+    public int[] intersectApproachB(int[] nums1, int[] nums2) {
 
         if(nums1.length < nums2.length) {
             return intersect(nums2, nums1);
