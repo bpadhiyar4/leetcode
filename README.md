@@ -2,6 +2,7 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 20 | [Two Sum](https://github.com/bpadhiyar4/leetcode/tree/main/1-two-sum) | 12/08/2022
 | 19 | [Maximum Subarray](https://github.com/bpadhiyar4/leetcode/tree/main/53-maximum-subarray) | 11/08/2022
 | 18 | [Contains Duplicate](https://github.com/bpadhiyar4/leetcode/tree/main/217-contains-duplicate) | 11/08/2022
 | 17 | [Roman to Integer](https://github.com/bpadhiyar4/leetcode/tree/main/13-roman-to-integer) | 10/08/2022
