@@ -2,6 +2,10 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 24 | [Pascal's Triangle](https://github.com/bpadhiyar4/leetcode/tree/main/118-pascals-triangle) | 14/08/2022
+| 23 | [Reshape the Matrix](https://github.com/bpadhiyar4/leetcode/tree/main/566-reshape-the-matrix) | 14/08/2022
+| 22 | [Best Time to Buy and Sell Stock](https://github.com/bpadhiyar4/leetcode/tree/main/121-best-time-to-buy-and-sell-stock) | 14/08/2022
+| 21 | [Intersection of Two Arrays II](https://github.com/bpadhiyar4/leetcode/tree/main/350-intersection-of-two-arrays-ii) | 14/08/2022
 | 20 | [Two Sum](https://github.com/bpadhiyar4/leetcode/tree/main/1-two-sum) | 12/08/2022
 | 19 | [Maximum Subarray](https://github.com/bpadhiyar4/leetcode/tree/main/53-maximum-subarray) | 11/08/2022
 | 18 | [Contains Duplicate](https://github.com/bpadhiyar4/leetcode/tree/main/217-contains-duplicate) | 11/08/2022
