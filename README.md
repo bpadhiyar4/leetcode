@@ -2,6 +2,8 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 26 | [Search a 2D Matrix](https://github.com/bpadhiyar4/leetcode/tree/main/74-search-a-2d-matrix) | 15/08/2022
+| 25 | [Valid Sudoku](https://github.com/bpadhiyar4/leetcode/tree/main/36-valid-sudoku) | 15/08/2022
 | 24 | [Pascal's Triangle](https://github.com/bpadhiyar4/leetcode/tree/main/118-pascals-triangle) | 14/08/2022
 | 23 | [Reshape the Matrix](https://github.com/bpadhiyar4/leetcode/tree/main/566-reshape-the-matrix) | 14/08/2022
 | 22 | [Best Time to Buy and Sell Stock](https://github.com/bpadhiyar4/leetcode/tree/main/121-best-time-to-buy-and-sell-stock) | 14/08/2022
