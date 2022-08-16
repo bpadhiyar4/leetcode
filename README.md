@@ -2,6 +2,9 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 29 | [Valid Anagram](https://github.com/bpadhiyar4/leetcode/tree/main/242-valid-anagram) | 16/08/2022
+| 28 | [Ransom Note](https://github.com/bpadhiyar4/leetcode/tree/main/383-ransom-note) | 16/08/2022
+| 27 | [First Unique Character in a String](https://github.com/bpadhiyar4/leetcode/tree/main/387-first-unique-character-in-a-string) | 16/08/2022
 | 26 | [Search a 2D Matrix](https://github.com/bpadhiyar4/leetcode/tree/main/74-search-a-2d-matrix) | 15/08/2022
 | 25 | [Valid Sudoku](https://github.com/bpadhiyar4/leetcode/tree/main/36-valid-sudoku) | 15/08/2022
 | 24 | [Pascal's Triangle](https://github.com/bpadhiyar4/leetcode/tree/main/118-pascals-triangle) | 14/08/2022
