@@ -6,9 +6,8 @@ class Solution {
         }
         
         int[] charCount = new int[26];
-        char[] charArr = s.toCharArray();
         
-        for(char ch : charArr) {
+        for(char ch : s.toCharArray()) {
             charCount[ch - 'a']++;
         }
         
