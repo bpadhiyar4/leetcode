@@ -2,6 +2,9 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 32 | [Remove Linked List Elements](https://github.com/bpadhiyar4/leetcode/tree/main/203-remove-linked-list-elements) | 17/08/2022
+| 31 | [Merge Two Sorted Lists](https://github.com/bpadhiyar4/leetcode/tree/main/21-merge-two-sorted-lists) | 17/08/2022
+| 30 | [141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/main/141-linked-list-cycle) | 17/08/2022
 | 29 | [Valid Anagram](https://github.com/bpadhiyar4/leetcode/tree/main/242-valid-anagram) | 16/08/2022
 | 28 | [Ransom Note](https://github.com/bpadhiyar4/leetcode/tree/main/383-ransom-note) | 16/08/2022
 | 27 | [First Unique Character in a String](https://github.com/bpadhiyar4/leetcode/tree/main/387-first-unique-character-in-a-string) | 16/08/2022
