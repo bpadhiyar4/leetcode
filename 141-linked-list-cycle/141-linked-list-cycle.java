@@ -19,7 +19,7 @@ public class Solution {
         ListNode oneStep = head;
         ListNode twoStep = head;
         
-        while(twoStep.next != null && twoStep.next.next != null) {
+        while(twoStep != null && twoStep.next != null) {
             twoStep = twoStep.next.next;
             oneStep = oneStep.next;
             
