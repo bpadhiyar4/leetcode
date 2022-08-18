@@ -10,6 +10,11 @@
  */
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
+        
+        if(head == null) {
+            return null;
+        }
+        
         ListNode copy = head;
         ListNode sorted = new ListNode();
         ListNode curNode = sorted;
@@ -24,6 +29,6 @@ class Solution {
             }
         }
         
-        return (copy != null && copy.val == 0) ? sorted : sorted.next;
+        return (copy.val == 0) ? sorted : sorted.next;
     }
 }
