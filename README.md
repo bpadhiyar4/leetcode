@@ -2,8 +2,10 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
-| 34 | [Remove Duplicates from Sorted List](https://github.com/bpadhiyar4/leetcode/tree/main/83-remove-duplicates-from-sorted-list) | 17/08/2022
-| 33 | [Reverse Linked List](https://github.com/bpadhiyar4/leetcode/tree/main/206-reverse-linked-list) | 17/08/2022
+| 36 | [Implement Queue using Stacks](https://github.com/bpadhiyar4/leetcode/tree/main/232-implement-queue-using-stacks) | 19/08/2022
+| 35 | [Valid Parentheses](https://github.com/bpadhiyar4/leetcode/tree/main/20-valid-parentheses) | 19/08/2022
+| 34 | [Remove Duplicates from Sorted List](https://github.com/bpadhiyar4/leetcode/tree/main/83-remove-duplicates-from-sorted-list) | 18/08/2022
+| 33 | [Reverse Linked List](https://github.com/bpadhiyar4/leetcode/tree/main/206-reverse-linked-list) | 18/08/2022
 | 32 | [Remove Linked List Elements](https://github.com/bpadhiyar4/leetcode/tree/main/203-remove-linked-list-elements) | 17/08/2022
 | 31 | [Merge Two Sorted Lists](https://github.com/bpadhiyar4/leetcode/tree/main/21-merge-two-sorted-lists) | 17/08/2022
 | 30 | [141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/main/141-linked-list-cycle) | 17/08/2022
