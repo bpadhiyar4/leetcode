@@ -16,15 +16,28 @@
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();    
-        travel(root, ans);
-        return ans;
-    }
-    
-    private void travel(TreeNode root, List<Integer> preOrder) {
-        if(root != null) {
-            travel(root.left, preOrder);
-            preOrder.add(root.val);
-            travel(root.right, preOrder);
+        TreeNode curNode = root;
+        
+        while(curNode != null) {
+            if(curNode.left == null) {
+                ans.add(curNode.val);
+                curNode = curNode.right;
+            } else {
+                TreeNode preNode = curNode.left;
+                while(preNode.right != null && preNode.right != curNode) {
+                    preNode = preNode.right;
+                }
+                
+                if(preNode.right == null) {
+                    preNode.right = curNode;
+                    curNode = curNode.left;
+                } else {
+                    preNode.right = null;
+                    ans.add(curNode.val);
+                    curNode = curNode.right;
+                }
+            }
         }
+        return ans;
     }
 }
