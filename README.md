@@ -2,6 +2,9 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 39 | [Binary Tree Preorder Traversal](https://github.com/bpadhiyar4/leetcode/tree/main/144-binary-tree-preorder-traversal) | 20/08/2022
+| 38 | [Binary Tree Inorder Traversal](https://github.com/bpadhiyar4/leetcode/tree/main/94-binary-tree-inorder-traversal) | 20/08/2022
+| 37 | [Binary Tree Postorder Traversal](https://github.com/bpadhiyar4/leetcode/tree/main/145-binary-tree-postorder-traversal) | 20/08/2022
 | 36 | [Implement Queue using Stacks](https://github.com/bpadhiyar4/leetcode/tree/main/232-implement-queue-using-stacks) | 19/08/2022
 | 35 | [Valid Parentheses](https://github.com/bpadhiyar4/leetcode/tree/main/20-valid-parentheses) | 19/08/2022
 | 34 | [Remove Duplicates from Sorted List](https://github.com/bpadhiyar4/leetcode/tree/main/83-remove-duplicates-from-sorted-list) | 18/08/2022
