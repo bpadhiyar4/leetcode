@@ -17,15 +17,40 @@ class Solution {
     
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();    
-        travel(root, ans);
-        return ans;
-    }
-    
-    private void travel(TreeNode root, List<Integer> preOrder) {
-        if(root != null) {
-            preOrder.add(root.val);
-            travel(root.left, preOrder);
-            travel(root.right, preOrder);
+        
+        TreeNode curNode = root;
+        
+        // untill current node is not null.
+        while(curNode != null) {
+            
+            // if current node's left is null, add the curNode val in list and set current node's right to curNode.
+            if(curNode.left == null) {
+                ans.add(curNode.val);
+                curNode = curNode.right;
+            } else {
+                
+                // create temporary between the right most node and curNode.
+                
+                // take preNode to the right most node.
+                TreeNode preNode = curNode.left;
+                while(preNode.right != null && preNode.right != curNode) {
+                    preNode = preNode.right;
+                }
+                
+                
+                // if the preNode's right is null then create a temporary link between preNode's right and curNode.
+                if(preNode.right == null) {
+                    ans.add(curNode.val);
+                    preNode.right = curNode;
+                    curNode = curNode.left;
+                } else {
+                    
+                    // preNode.right is curNode. Here we will set null to the preNode.right and and the preNode.val in list and shift curNode to curNode.right.
+                    preNode.right = null;
+                    curNode = curNode.right;
+                }
+            }
         }
+        return ans;
     }
 }
