@@ -22,6 +22,6 @@ class Solution {
         int lHeight = maxDepth(root.left);
         int rHeight = maxDepth(root.right);
         
-        return lHeight > rHeight ? lHeight + 1 : rHeight +1;
+        return Math.max(lHeight, rHeight) +1;
     }
 }
