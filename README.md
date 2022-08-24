@@ -2,6 +2,10 @@
 
 | Problem No | Name  | Date  |
 | :-----: | :-: | :-: |
+| 43 | [Insert into a Binary Search Tree](https://github.com/bpadhiyar4/leetcode/tree/main/701-insert-into-a-binary-search-tree) | 24/08/2022
+| 42 | [Search in a Binary Search Tree](https://github.com/bpadhiyar4/leetcode/tree/main/700-search-in-a-binary-search-tree) | 24/08/2022
+| 41 | [Path Sum](https://github.com/bpadhiyar4/leetcode/tree/main/112-path-sum) | 22/08/2022
+| 40 | [Invert Binary Tree](https://github.com/bpadhiyar4/leetcode/tree/main/226-invert-binary-tree) | 22/08/2022
 | 39 | [Binary Tree Preorder Traversal](https://github.com/bpadhiyar4/leetcode/tree/main/144-binary-tree-preorder-traversal) | 20/08/2022
 | 38 | [Binary Tree Inorder Traversal](https://github.com/bpadhiyar4/leetcode/tree/main/94-binary-tree-inorder-traversal) | 20/08/2022
 | 37 | [Binary Tree Postorder Traversal](https://github.com/bpadhiyar4/leetcode/tree/main/145-binary-tree-postorder-traversal) | 20/08/2022
