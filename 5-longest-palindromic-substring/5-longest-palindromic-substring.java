@@ -2,12 +2,12 @@ class Solution {
     public String longestPalindrome(String s) {
         int len = s.length();
         String ans = "";
-        outer : for(int i=0;i <= len-1;i++) {
-            inner: for(int j = len -1; j>=i; j--) {
+        for(int i=0;i <= len-1;i++) {
+            for(int j = len -1; j>=i; j--) {
                 if(s.charAt(i) == s.charAt(j) && isPalindrome(s, i, j)) {
                     String temp = s.substring(i, j+1);
                     ans = ans.length() > temp.length() ? ans : temp;
-                    break inner;
+                    break;
                 }
             }
         }
