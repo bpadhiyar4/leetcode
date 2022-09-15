@@ -30,15 +30,4 @@ class Solution {
         
         return ans;
     }
-    
-    private int getIndex(int[] nums, int ele) {
-        
-        for(int i=0;i<nums.length; i++) {
-            if(nums[i] == ele) {
-                return i;
-            }
-        }
-        
-        return -1;
-    }
 }
