@@ -4,7 +4,6 @@ class Solution {
         Arrays.fill(ans, -1);
         
         Deque<Integer> decStack = new LinkedList<>();
-        int count = 0;
         
         for(int index = nums2.length -1; index >= -1; index--) {
             
@@ -16,12 +15,7 @@ class Solution {
                     
                     if(indexForAns != -1) {
                         ans[indexForAns] = nums2[prevIndex];
-                        count++;
                     }
-                }
-                
-                if(count == nums1.length) {
-                        return ans;
                 }
             } 
             
