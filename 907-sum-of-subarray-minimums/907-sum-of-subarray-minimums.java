@@ -2,7 +2,7 @@ class Solution {
     public int sumSubarrayMins(int[] arr) {
         
         int MOD = (int) 1e9 + 7;
-        Stack<Integer> incStack = new Stack<>();
+        Deque<Integer> incStack = new LinkedList<>();
         
         long sum = 0;
 
