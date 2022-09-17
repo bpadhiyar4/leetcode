@@ -31,10 +31,7 @@ class Solution {
             beforeRemove = beforeRemove.next;
         }
         
-        if(beforeRemove != null && beforeRemove.next != null) {
-            beforeRemove.next = beforeRemove.next.next;
-        }
-        
+        beforeRemove.next = beforeRemove.next.next; 
         return head;
     }
 }
