@@ -1,37 +1,21 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
-        solve(ans, n, "");
+        solve(n-1, n, ans, "(");
         return ans;
     }
     
-    
-    private void solve(List<String> ansList, int n, String ansString) {
-        if(n*2 == ansString.length()) {
-            if(isValid(ansString)) {
-                ansList.add(ansString);
-            }
-            
+    private void solve(int open, int close, List<String> ansList, String ansString) {
+        if(open == 0 && close == 0) {
+            ansList.add(ansString);
             return;
         }
         
-        solve(ansList, n, ansString + "(");
-        solve(ansList, n, ansString + ")");
-    }
-    
-    private boolean isValid(String str) {
-        char[] arr = str.toCharArray();
-        Stack<Character> stack = new Stack<>();
-        for(char ch : arr) {
-            if(ch == ')') {
-                if(stack.isEmpty() || stack.pop() != '(') {
-                    return false;
-                }
-            } else {
-                stack.push(ch);
-            }
+        if(open < 0 || close < 0 || open > close) {
+            return;
         }
         
-        return stack.isEmpty();
+        solve(open -1, close, ansList, ansString + "(");
+        solve(open, close - 1, ansList, ansString + ")");
     }
 }
