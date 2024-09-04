@@ -1,16 +1,9 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         int newIndex = 1;
-        boolean hasDuplicate = false;
         int len = nums.length;
         for (int i = 1; i < len; i++) {
-            if (nums[i] == nums[i-1]) {
-                if (!hasDuplicate) {
-                    nums[newIndex++] = nums[i];
-                    hasDuplicate = true;
-                } 
-            } else {
-                hasDuplicate = false;
+            if (newIndex == 1 || nums[i] != nums[newIndex - 2]) {
                 nums[newIndex++] = nums[i];
             }
         }
