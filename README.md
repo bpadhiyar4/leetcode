@@ -47,3 +47,15 @@
 | 3 | [squares-of-a-sorted-array](https://github.com/bpadhiyar4/leetcode/tree/main/squares-of-a-sorted-array) | 24/01/2021 |
 | 2 | [search-insert-position](https://github.com/bpadhiyar4/leetcode/tree/main/search-insert-position) | 24/01/2021 |
 | 1 | [remove-element](https://github.com/bpadhiyar4/leetcode/tree/main/remove-element) | 20/01/2021 |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+## Two Pointers
+|  |
+| ------- |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+<!---LeetCode Topics End-->
