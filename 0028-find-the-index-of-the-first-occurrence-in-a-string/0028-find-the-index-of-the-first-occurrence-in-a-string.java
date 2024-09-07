@@ -3,7 +3,7 @@ class Solution {
         int haystackLen = haystack.length();
         int needleLen = needle.length();
 
-        for(int i = 0; i < haystackLen; i++) {
+        for(int i = 0; i <= haystackLen - needleLen; i++) {
             if (haystack.charAt(i) == needle.charAt(0)) {
                 for(int j = 0, k = i; k < haystackLen && j < needleLen; j++, k++) {
                     if(haystack.charAt(k) != needle.charAt(j)) {
