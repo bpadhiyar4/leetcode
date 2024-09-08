@@ -11,17 +11,16 @@ class Solution {
             Character currCh = s.charAt(i);
             if (currCh == '{' || currCh == '(' || currCh == '[') {
                 paraStack.push(currCh);
-                continue;
             } else if (paraStack.size() == 0) {
                 return false;
-            }
-
-            Character popChar = paraStack.pop();
-            if ((currCh == '}' && popChar != '{') || 
-                (currCh == ')' && popChar != '(') || 
-                (currCh == ']' && popChar != '[')
-                ) {
-                    return false;
+            } else {
+                Character popChar = paraStack.pop();    
+                if ((currCh == '}' && popChar != '{') || 
+                    (currCh == ')' && popChar != '(') || 
+                    (currCh == ']' && popChar != '[')
+                    ) {
+                        return false;
+                    }
                 }
         }
 
