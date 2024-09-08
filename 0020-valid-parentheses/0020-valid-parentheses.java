@@ -7,21 +7,18 @@ class Solution {
             return false;
         }
 
+        Map<Character, Character> map = new HashMap<>();
+        map.put('[', ']');
+        map.put('{', '}');
+        map.put('(', ')');
+        
         for (int i=0; i < len; i++) {
             Character currCh = s.charAt(i);
-            if (currCh == '{' || currCh == '(' || currCh == '[') {
+            if (map.containsKey(currCh)) {
                 paraStack.push(currCh);
-            } else if (paraStack.size() == 0) {
+            } else if (paraStack.size() == 0 || map.get(paraStack.pop()) != currCh) {
                 return false;
-            } else {
-                Character popChar = paraStack.pop();    
-                if ((currCh == '}' && popChar != '{') || 
-                    (currCh == ')' && popChar != '(') || 
-                    (currCh == ']' && popChar != '[')
-                    ) {
-                        return false;
-                    }
-                }
+            }
         }
 
         return paraStack.size() == 0 ? true : false;
