@@ -6,8 +6,8 @@ class Solution {
         s = s.toLowerCase();
 
         while (i < j) {
-            int iChar = (int) s.charAt(i);
-            int jChar = (int) s.charAt(j);
+            int iChar = s.charAt(i);
+            int jChar = s.charAt(j);
             if (!Character.isLetterOrDigit(iChar)) {
                 i++;
             } else if (!Character.isLetterOrDigit(jChar)) {
