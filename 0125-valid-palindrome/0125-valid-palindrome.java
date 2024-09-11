@@ -3,7 +3,6 @@ class Solution {
         int len = s.length();
         int i = 0;
         int j = len - 1;
-        s = s.toLowerCase();
 
         while (i < j) {
             int iChar = s.charAt(i);
@@ -13,7 +12,7 @@ class Solution {
             } else if (!Character.isLetterOrDigit(jChar)) {
                 j--;
             } else {
-                if (iChar != jChar) {
+                if (Character.toLowerCase(iChar) != Character.toLowerCase(jChar)) {
                     return false;
                 }
                 
