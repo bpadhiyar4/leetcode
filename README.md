@@ -60,6 +60,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/bpadhiyar4/leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/bpadhiyar4/leetcode/tree/master/0189-rotate-array) |
+| [0274-h-index](https://github.com/bpadhiyar4/leetcode/tree/master/0274-h-index) |
 ## Two Pointers
 |  |
 | ------- |
@@ -81,6 +82,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/bpadhiyar4/leetcode/tree/master/0169-majority-element) |
+| [0274-h-index](https://github.com/bpadhiyar4/leetcode/tree/master/0274-h-index) |
 ## Counting
 |  |
 | ------- |
@@ -126,4 +128,8 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/bpadhiyar4/leetcode/tree/master/0014-longest-common-prefix) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/bpadhiyar4/leetcode/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
