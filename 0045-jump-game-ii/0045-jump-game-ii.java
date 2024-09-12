@@ -6,6 +6,9 @@ class Solution {
         int len = nums.length;
         for(int i = 0; i<len-1; i++) {
             maxIndex = Math.max(maxIndex, i + nums[i]);
+            if (maxIndex == len - 1) {
+                return ++jump;
+            }
             if (i == reach) {
                 jump++;
                 reach = maxIndex;
