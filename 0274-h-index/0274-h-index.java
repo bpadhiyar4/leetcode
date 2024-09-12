@@ -11,12 +11,12 @@ class Solution {
             }
         }
 
-        int hIndex = 0;
+        int sum = 0;
 
-        for (int i = n; i>= 0; i--) {
-            hIndex += bucket[i];
-            if (hIndex >= i) {
-                return i;
+        for (int hIndex = n; hIndex>= 0; hIndex--) {
+            sum += bucket[hIndex];
+            if (sum >= hIndex) {
+                return hIndex;
             }
         }
 
