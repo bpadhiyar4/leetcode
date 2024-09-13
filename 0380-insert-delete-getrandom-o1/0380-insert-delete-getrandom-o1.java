@@ -25,11 +25,14 @@ class RandomizedSet {
 
         int index = map.get(val);
 
-        if (index < list.size() -1) {
-            int last = list.get(list.size() - 1);
-            list.set(index, last);
-            map.put(last, index);
-        }
+        // if (index < list.size() -1) {
+        //     int last = list.get(list.size() - 1);
+        //     list.set(index, last);
+        //     map.put(last, index);
+        // }
+        int last = list.get(list.size() - 1);
+        list.set(index, last);
+        map.put(last, index);
         map.remove(val);
         list.remove(list.size() - 1);
         return true;
