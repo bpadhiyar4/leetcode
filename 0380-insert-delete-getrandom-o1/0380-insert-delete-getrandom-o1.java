@@ -23,18 +23,13 @@ class RandomizedSet {
             return false;
         }
 
+        int size = list.size() - 1;
         int index = map.get(val);
-
-        // if (index < list.size() -1) {
-        //     int last = list.get(list.size() - 1);
-        //     list.set(index, last);
-        //     map.put(last, index);
-        // }
-        int last = list.get(list.size() - 1);
+        int last = list.get(size);
         list.set(index, last);
         map.put(last, index);
         map.remove(val);
-        list.remove(list.size() - 1);
+        list.remove(size);
         return true;
     }
     
