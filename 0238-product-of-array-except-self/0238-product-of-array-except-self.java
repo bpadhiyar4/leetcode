@@ -5,10 +5,13 @@ class Solution {
         int[] suffix = new int[len];
 
         prefix[0] = 1;
-        suffix[len-1] = 1;
-        for (int i = 1, j = len-2; i < len && j >= 0; i++, j--) {
+        for (int i = 1; i < len; i++) {
             prefix[i] = prefix[i-1] * nums[i-1];
-            suffix[j] = suffix[j + 1] * nums[j + 1];
+        }
+
+        suffix[len-1] = 1;
+        for (int i = len-2; i >= 0; i--) {
+            suffix[i] = suffix[i + 1] * nums[i + 1];
         }
 
         int[] ans = new int[len];
