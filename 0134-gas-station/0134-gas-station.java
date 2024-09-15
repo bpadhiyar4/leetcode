@@ -13,31 +13,16 @@ class Solution {
             return -1;
         }
 
+        int tank = 0;
+        int ans = 0;
         for (int i=0;i<len;i++) {
-
-            if (gas[i] == 0 || cost[i] > gas[i]) {
-                continue;
-            }
-
-            int tank = 0;
-            int curr = i;
-            boolean start = true;
-            while (true) {
-                if (!start && curr == i) {
-                    return i;
-                }
-                tank += gas[curr];
-                int nextCost = cost[curr];
-                start = false;
-                if (nextCost > tank) {
-                    break;
-                } else {
-                    tank -= nextCost;
-                    curr = (curr + 1) % len;
-                }
+            tank += gas[i] - cost[i];
+            if (tank < 0) {
+                ans = i + 1;
+                tank = 0;
             }
         }
 
-        return -1;
+        return ans;
     }
 }
