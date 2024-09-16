@@ -9,10 +9,12 @@ class Solution {
                 end--;
             }
 
+            // end pointer is > 0 it means that next word doesn't exist.
             if (end < 0) {
                 return ans.toString();
             }
 
+            // assign the start as end.
             start = end;
             while (start >= 0 && s.charAt(start) != ' ') {
                 start--;
