@@ -1,29 +1,30 @@
 class Solution {
     public String reverseWords(String s) {
-        Stack<String> words = new Stack<>();
-        StringBuilder word = new StringBuilder();
         int len = s.length();
-        for (int i = 0; i < len; i++) {
-            char ch = s.charAt(i);
-            if (Character.isLetterOrDigit(s.charAt(i))) {
-                word.append(ch);
-            } else if (!word.isEmpty()) {
-                words.push(word.toString());
-                word = new StringBuilder();
-            }
-        }
-
-        if (!word.isEmpty()) {
-            words.push(word.toString());
-            word = new StringBuilder();
-        }
-
+        int start;
+        int end = len-1;
         StringBuilder ans = new StringBuilder();
-        while(!words.isEmpty()) {
-            ans.append(words.pop());
-            if (!words.isEmpty()) {
-                ans.append(" ");
+        while (end >= 0) {
+            while (end >=0 && s.charAt(end) == ' ') {
+                end--;
             }
+
+            if (end < 0) {
+                return ans.toString();
+            }
+
+            start = end;
+            while (start >= 0 && s.charAt(start) != ' ') {
+                start--;
+            }
+
+            if (ans.isEmpty()) {
+                ans.append(s.substring(start+1, end+1));
+            } else {
+                ans.append(" ").append(s.substring(start+1, end+1));
+            }
+
+            end = start;
         }
 
         return ans.toString();
