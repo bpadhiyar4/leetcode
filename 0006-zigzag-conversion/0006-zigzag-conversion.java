@@ -4,7 +4,7 @@ class Solution {
             return s;
         }
 
-        boolean down = true;
+        boolean down = false;
         StringBuilder[] matrix = new StringBuilder[numRows];
         for (int i=0; i < numRows; i++) {
             matrix[i] = new StringBuilder();
@@ -14,11 +14,9 @@ class Solution {
         int j = 0;
         for (int i=0; i < len; i++) {
             matrix[j].append(s.charAt(i));
-            if (j == numRows - 1) {
-                down = false;
-            } else if (j == 0) {
-                down = true;
-            }
+            if (j == numRows - 1 || j == 0) {
+                down = !down;
+            } 
 
             if (down) {
                 j++;
