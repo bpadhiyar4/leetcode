@@ -1,5 +1,10 @@
 class Solution {
     public String convert(String s, int numRows) {
+
+        if (numRows == 1) {
+            return s;
+        }
+
         boolean down = true;
         List<Character>[] matrix = new List[numRows];
         for (int i=0; i < numRows; i++) {
@@ -16,9 +21,9 @@ class Solution {
                 down = true;
             }
 
-            if (numRows != 1 && down) {
+            if (down) {
                 j++;
-            } else if (numRows != 1){
+            } else {
                 j--;
             }
         }
