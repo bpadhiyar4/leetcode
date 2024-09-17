@@ -6,15 +6,15 @@ class Solution {
         }
 
         boolean down = true;
-        List<Character>[] matrix = new List[numRows];
+        StringBuilder[] matrix = new StringBuilder[numRows];
         for (int i=0; i < numRows; i++) {
-            matrix[i] = new ArrayList<>();
+            matrix[i] = new StringBuilder();
         }
 
         int len = s.length();
         int j = 0;
         for (int i=0; i < len; i++) {
-            matrix[j].add(s.charAt(i));
+            matrix[j].append(s.charAt(i));
             if (j == numRows - 1) {
                 down = false;
             } else if (j == 0) {
@@ -29,10 +29,8 @@ class Solution {
         }
 
         StringBuilder sb = new StringBuilder();
-        for (List<Character> row : matrix) {
-            for(Character ch : row) {
-                sb.append(ch);
-            }
+        for (StringBuilder row : matrix) {
+            sb.append(row);
         }
 
         return sb.toString();
