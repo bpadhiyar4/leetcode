@@ -59,6 +59,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/bpadhiyar4/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/bpadhiyar4/leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/bpadhiyar4/leetcode/tree/master/0135-candy) |
 | [0169-majority-element](https://github.com/bpadhiyar4/leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/bpadhiyar4/leetcode/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/bpadhiyar4/leetcode/tree/master/0238-product-of-array-except-self) |
@@ -115,6 +116,7 @@
 | [0055-jump-game](https://github.com/bpadhiyar4/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/bpadhiyar4/leetcode/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/bpadhiyar4/leetcode/tree/master/0135-candy) |
 ## String
 |  |
 | ------- |
