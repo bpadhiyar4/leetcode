@@ -3,6 +3,10 @@ class Solution {
         int ransomLen = ransomNote.length();
         int magLen = magazine.length();
 
+        if (magLen < ransomLen) {
+            return false;
+        }
+
         Map<Character, Integer> ransomMap = new HashMap();
         Map<Character, Integer> magMap = new HashMap();
 
