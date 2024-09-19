@@ -10,12 +10,12 @@ class Solution {
         int[] magArr = new int[26];
 
         for (int i = 0; i < magLen; i++) {
-            int ch = magazine.charAt(i) - 97;
+            int ch = magazine.charAt(i) - 'a';
             magArr[ch]++;
         }
 
         for (int i = 0; i < ransomLen; i++) {
-            int ch = ransomNote.charAt(i) - 97;
+            int ch = ransomNote.charAt(i) - 'a';
             int count = magArr[ch];
             if (count == 0) {
                 return false;
