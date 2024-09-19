@@ -9,19 +9,16 @@ class Solution {
 
         int[] magArr = new int[26];
 
-        for (int i = 0; i < magLen; i++) {
-            int ch = magazine.charAt(i) - 97;
-            magArr[ch] += 1;
-        }
+        for (char c: magazine.toCharArray()) {
+            magArr[c - 'a']++;
+        } 
 
-        for (int i = 0; i < ransomLen; i++) {
-            int ch = ransomNote.charAt(i) - 97;
-            int count = magArr[ch];
-            if (count == 0) {
+        for (char c: ransomNote.toCharArray()) {
+            if (magArr[c - 'a'] == 0) {
                 return false;
             }
 
-            magArr[ch] -= 1;
+            magArr[c - 'a']--;
         }
 
         return true;
