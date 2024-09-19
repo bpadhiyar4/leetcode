@@ -11,7 +11,7 @@ class Solution {
 
         for (int i = 0; i < magLen; i++) {
             int ch = magazine.charAt(i) - 97;
-            magArr[ch] += 1;
+            magArr[ch]++;
         }
 
         for (int i = 0; i < ransomLen; i++) {
