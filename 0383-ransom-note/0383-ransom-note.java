@@ -16,8 +16,7 @@ class Solution {
 
         for (int i = 0; i < ransomLen; i++) {
             int ch = ransomNote.charAt(i) - 97;
-            int count = magArr[ch];
-            if (count == 0) {
+            if (magArr[ch] == 0) {
                 return false;
             }
 
