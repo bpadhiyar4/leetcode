@@ -2,7 +2,7 @@ class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int ransomLen = ransomNote.length();
         int magLen = magazine.length();
-        int start = 97;
+
         if (magLen < ransomLen) {
             return false;
         }
