@@ -2,29 +2,26 @@ class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int ransomLen = ransomNote.length();
         int magLen = magazine.length();
-
+        int start = 97;
         if (magLen < ransomLen) {
             return false;
         }
 
-        Map<Character, Integer> ransomMap = new HashMap();
-        Map<Character, Integer> magMap = new HashMap();
-
-        for (int i = 0; i < ransomLen; i++) {
-            char currChar = ransomNote.charAt(i);
-            ransomMap.put(currChar, ransomMap.getOrDefault(currChar, 0) + 1);
-        }
+        int[] magArr = new int[26];
 
         for (int i = 0; i < magLen; i++) {
-            char currChar = magazine.charAt(i);
-            magMap.put(currChar, magMap.getOrDefault(currChar, 0) + 1);
+            int ch = magazine.charAt(i) - 97;
+            magArr[ch] += 1;
         }
 
-        for (Map.Entry<Character, Integer> ran : ransomMap.entrySet()) {
-            int count = magMap.getOrDefault(ran.getKey(), 0);
-            if (count < ran.getValue()) {
+        for (int i = 0; i < ransomLen; i++) {
+            int ch = ransomNote.charAt(i) - 97;
+            int count = magArr[ch];
+            if (count == 0) {
                 return false;
             }
+
+            magArr[ch] -= 1;
         }
 
         return true;
