@@ -53,6 +53,7 @@
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/bpadhiyar4/leetcode/tree/master/0015-3sum) |
 | [0045-jump-game-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/bpadhiyar4/leetcode/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -69,6 +70,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/bpadhiyar4/leetcode/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/bpadhiyar4/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/bpadhiyar4/leetcode/tree/master/0125-valid-palindrome) |
@@ -91,6 +93,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/bpadhiyar4/leetcode/tree/master/0015-3sum) |
 | [0169-majority-element](https://github.com/bpadhiyar4/leetcode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/bpadhiyar4/leetcode/tree/master/0274-h-index) |
 ## Counting
