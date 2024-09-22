@@ -9,7 +9,8 @@ class Solution {
             char tCh = t.charAt(i);
             char sCh = s.charAt(i);
             
-            if ((mapS[sCh] != 0 && mapS[sCh] != tCh) || (mapT[tCh] != 0 && mapT[tCh] != sCh)) {
+            if ((mapS[sCh] != 0 && mapS[sCh] != tCh) || 
+                (mapT[tCh] != 0 && mapT[tCh] != sCh)) {
                 return false;
             }
 
