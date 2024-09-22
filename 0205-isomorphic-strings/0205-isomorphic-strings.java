@@ -9,12 +9,12 @@ class Solution {
             Character sCh = s.charAt(i);
             Character mapped = map.get(sCh);
             if (mapped == null) {
-                if (set.contains(tCh)) {
+                if (map.containsValue(tCh)) {
                     return false;
                 }
 
                 map.put(sCh, tCh);
-                set.add(tCh);
+                // set.add(tCh);
             } else {
                 if (mapped != tCh) {
                     return false;
