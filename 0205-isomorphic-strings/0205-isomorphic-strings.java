@@ -11,7 +11,6 @@ class Solution {
                 if (map.containsValue(tCh)) {
                     return false;
                 }
-
                 map.put(sCh, tCh);
             } else if (mapped != tCh) {
                 return false;
