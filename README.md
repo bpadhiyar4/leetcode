@@ -88,6 +88,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/bpadhiyar4/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/bpadhiyar4/leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/bpadhiyar4/leetcode/tree/master/0013-roman-to-integer) |
+| [0138-copy-list-with-random-pointer](https://github.com/bpadhiyar4/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/bpadhiyar4/leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/bpadhiyar4/leetcode/tree/master/0205-isomorphic-strings) |
@@ -193,6 +194,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/bpadhiyar4/leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/bpadhiyar4/leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/bpadhiyar4/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/master/0141-linked-list-cycle) |
 ## Recursion
 |  |
