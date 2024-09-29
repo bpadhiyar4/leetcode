@@ -14,36 +14,26 @@ class Solution {
             return head;
         }
         ListNode copy = head;
-        int len = 0;
+        int len = 1;
 
-        while (copy != null) {
+        while (copy.next != null) {
             copy = copy.next;
             len++;
         }
 
         k = k % len;
-
         if (k == 0) {
             return head;
         }
 
-        copy = head;
-        for (int i=0; i< len - k; i++) {
+        k = len - k;
+        copy.next = head;
+        while (k-- > 0) {
             copy = copy.next;
-        }
+        } 
 
-        ListNode curCopy = copy;
-        while (curCopy.next != null) {
-            curCopy = curCopy.next;
-        }
-        
-        curCopy.next = head;
-        // curCopy = copy;
-        for (int i=0; i< len - k; i++) {
-            curCopy = curCopy.next;
-        }
-
-        curCopy.next = null;
-        return copy;
+        head = copy.next;
+        copy.next = null;
+        return head;
     }
 }
