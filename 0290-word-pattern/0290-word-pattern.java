@@ -3,7 +3,7 @@ class Solution {
         String[] stringArr = s.split("\\s+");
         Map<Character, String> map = new HashMap<>();
         int patternLen = pattern.length();
-        
+        Set<String> set = new HashSet<>();
         if (stringArr.length != patternLen) {
             return false;
         }
@@ -14,10 +14,11 @@ class Solution {
                 if (!map.get(patternCh).equals(stringArr[i])) {
                     return false;
                 }
-            } else if (map.containsValue(stringArr[i])) {
+            } else if (set.contains(stringArr[i])) {
                 return false;
             } else {
                 map.put(patternCh, stringArr[i]);
+                set.add(stringArr[i]);
             }
         }
 
