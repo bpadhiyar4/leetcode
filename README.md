@@ -92,6 +92,7 @@
 | [0013-roman-to-integer](https://github.com/bpadhiyar4/leetcode/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/bpadhiyar4/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/bpadhiyar4/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/bpadhiyar4/leetcode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/bpadhiyar4/leetcode/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/bpadhiyar4/leetcode/tree/master/0290-word-pattern) |
@@ -173,6 +174,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/bpadhiyar4/leetcode/tree/master/0146-lru-cache) |
 | [0380-insert-delete-getrandom-o1](https://github.com/bpadhiyar4/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
 |  |
@@ -204,6 +206,7 @@
 | [0092-reverse-linked-list-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/bpadhiyar4/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/bpadhiyar4/leetcode/tree/master/0146-lru-cache) |
 ## Recursion
 |  |
 | ------- |
@@ -243,4 +246,8 @@
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/bpadhiyar4/leetcode/tree/master/0222-count-complete-tree-nodes) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/bpadhiyar4/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
