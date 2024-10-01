@@ -15,7 +15,6 @@ class Solution {
         ListNode afterCurr = after;
         ListNode beforeCurr = before;
 
-
         while (head != null) {
             if (head.val < x) {
                 beforeCurr.next = head;
