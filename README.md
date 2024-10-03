@@ -223,6 +223,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/bpadhiyar4/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/bpadhiyar4/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -231,6 +232,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/bpadhiyar4/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0226-invert-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -247,6 +249,7 @@
 | [0129-sum-root-to-leaf-numbers](https://github.com/bpadhiyar4/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0222-count-complete-tree-nodes](https://github.com/bpadhiyar4/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/bpadhiyar4/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
