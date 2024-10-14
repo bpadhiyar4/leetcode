@@ -55,6 +55,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/bpadhiyar4/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/bpadhiyar4/leetcode/tree/master/0015-3sum) |
+| [0037-sudoku-solver](https://github.com/bpadhiyar4/leetcode/tree/master/0037-sudoku-solver) |
 | [0045-jump-game-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/bpadhiyar4/leetcode/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/bpadhiyar4/leetcode/tree/master/0078-subsets) |
@@ -93,6 +94,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/bpadhiyar4/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/bpadhiyar4/leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/bpadhiyar4/leetcode/tree/master/0013-roman-to-integer) |
+| [0037-sudoku-solver](https://github.com/bpadhiyar4/leetcode/tree/master/0037-sudoku-solver) |
 | [0138-copy-list-with-random-pointer](https://github.com/bpadhiyar4/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/bpadhiyar4/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/bpadhiyar4/leetcode/tree/master/0146-lru-cache) |
@@ -265,6 +267,11 @@
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/bpadhiyar4/leetcode/tree/master/0037-sudoku-solver) |
 | [0078-subsets](https://github.com/bpadhiyar4/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0090-subsets-ii) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/bpadhiyar4/leetcode/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
