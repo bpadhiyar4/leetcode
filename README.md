@@ -160,6 +160,7 @@
 | [0290-word-pattern](https://github.com/bpadhiyar4/leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/bpadhiyar4/leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/bpadhiyar4/leetcode/tree/master/0392-is-subsequence) |
+| [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/bpadhiyar4/leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## String Matching
 |  |
 | ------- |
@@ -218,6 +219,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/bpadhiyar4/leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/bpadhiyar4/leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/bpadhiyar4/leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Tree
 |  |
 | ------- |
@@ -260,6 +262,7 @@
 | [0078-subsets](https://github.com/bpadhiyar4/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/bpadhiyar4/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/bpadhiyar4/leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## Doubly-Linked List
 |  |
 | ------- |
