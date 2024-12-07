@@ -72,6 +72,7 @@
 | [0238-product-of-array-except-self](https://github.com/bpadhiyar4/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/bpadhiyar4/leetcode/tree/master/0274-h-index) |
 | [0380-insert-delete-getrandom-o1](https://github.com/bpadhiyar4/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0747-min-cost-climbing-stairs](https://github.com/bpadhiyar4/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 ## Two Pointers
 |  |
 | ------- |
@@ -136,6 +137,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/bpadhiyar4/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/bpadhiyar4/leetcode/tree/master/0392-is-subsequence) |
+| [0747-min-cost-climbing-stairs](https://github.com/bpadhiyar4/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 ## Greedy
 |  |
 | ------- |
