@@ -78,6 +78,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/bpadhiyar4/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/bpadhiyar4/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/bpadhiyar4/leetcode/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/bpadhiyar4/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
@@ -133,6 +134,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/bpadhiyar4/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/bpadhiyar4/leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/bpadhiyar4/leetcode/tree/master/0070-climbing-stairs) |
@@ -155,6 +157,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/bpadhiyar4/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/bpadhiyar4/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/bpadhiyar4/leetcode/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/bpadhiyar4/leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/bpadhiyar4/leetcode/tree/master/0013-roman-to-integer) |
