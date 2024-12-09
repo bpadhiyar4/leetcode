@@ -7,7 +7,8 @@ class Solution {
 
         for (int i=sLen-1; i>=0; i--) {
             for (String word: wordDict) {
-                if(i+word.length() <= sLen && s.substring(i, i+word.length()).equals(word)) {
+                if(i+word.length() <= sLen && 
+                        s.substring(i, i+word.length()).equals(word)) {
                     dp[i] = dp[i+word.length()];
                 }
 
