@@ -83,6 +83,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/bpadhiyar4/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/bpadhiyar4/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bpadhiyar4/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 ## Two Pointers
 |  |
 | ------- |
@@ -197,6 +198,7 @@
 | [0392-is-subsequence](https://github.com/bpadhiyar4/leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/bpadhiyar4/leetcode/tree/master/0647-palindromic-substrings) |
 | [1250-longest-common-subsequence](https://github.com/bpadhiyar4/leetcode/tree/master/1250-longest-common-subsequence) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bpadhiyar4/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [3453-generate-binary-strings-without-adjacent-zeros](https://github.com/bpadhiyar4/leetcode/tree/master/3453-generate-binary-strings-without-adjacent-zeros) |
 ## String Matching
 |  |
@@ -229,6 +231,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/bpadhiyar4/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/bpadhiyar4/leetcode/tree/master/0238-product-of-array-except-self) |
+| [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bpadhiyar4/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 ## Binary Search
 |  |
 | ------- |
