@@ -83,6 +83,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/bpadhiyar4/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/bpadhiyar4/leetcode/tree/master/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/bpadhiyar4/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0926-find-and-replace-pattern](https://github.com/bpadhiyar4/leetcode/tree/master/0926-find-and-replace-pattern) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bpadhiyar4/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/bpadhiyar4/leetcode/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
 ## Two Pointers
@@ -119,6 +120,7 @@
 | [0290-word-pattern](https://github.com/bpadhiyar4/leetcode/tree/master/0290-word-pattern) |
 | [0380-insert-delete-getrandom-o1](https://github.com/bpadhiyar4/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/bpadhiyar4/leetcode/tree/master/0383-ransom-note) |
+| [0926-find-and-replace-pattern](https://github.com/bpadhiyar4/leetcode/tree/master/0926-find-and-replace-pattern) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -198,6 +200,7 @@
 | [0383-ransom-note](https://github.com/bpadhiyar4/leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/bpadhiyar4/leetcode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/bpadhiyar4/leetcode/tree/master/0647-palindromic-substrings) |
+| [0926-find-and-replace-pattern](https://github.com/bpadhiyar4/leetcode/tree/master/0926-find-and-replace-pattern) |
 | [1250-longest-common-subsequence](https://github.com/bpadhiyar4/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/bpadhiyar4/leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2471-minimum-amount-of-time-to-collect-garbage](https://github.com/bpadhiyar4/leetcode/tree/master/2471-minimum-amount-of-time-to-collect-garbage) |
